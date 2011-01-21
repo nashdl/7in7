@@ -1,0 +1,25 @@
+Accessing files with the code block form of File.open results in the io object being closed automatically at the end of the code block.
+
+Hash has h.to_a while Array does not have a.to_hash.
+For to_hash you could do:
+h = {}
+a.each_index do |i|
+  h[i.to_s] = a[i]
+end
+
+
+
+i = 1
+a = []
+while i <= 16 do
+  a.push i
+  i = i + 1
+end
+
+a.each do |e|
+  n = a.index(e)
+  puts n
+  if n % 4 do
+    puts e
+  end
+end

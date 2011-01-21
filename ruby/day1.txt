@@ -1,0 +1,39 @@
+Ruby API
+http://www.ruby-doc.org/core/
+
+Pragmatic Programmer's Guide
+http://ruby-doc.org/docs/ProgrammingRuby/
+
+Git extensions
+http://blog.bitfluent.com/post/27983389/git-utilities-you-cant-live-without
+
+gsub
+http://www.ruby-doc.org/core/classes/String.html#M001186
+"hello".gsub(/[aeiou]/, '*')                  #=> "h*ll*"
+"hello".gsub(/([aeiou])/, '<\1>')             #=> "h<e>ll<o>"
+"hello".gsub(/./) {|s| s.ord.to_s + ' '}      #=> "104 101 108 108 111 "
+"hello".gsub(/(?<foo>[aeiou])/, '{\k<foo>}')  #=> "h{e}ll{o}"
+'hello'.gsub(/[eo]/, 'e' => 3, 'o' => '*')    #=> "h3ll*"
+
+Ruby Regex
+http://www.ruby-doc.org/core/classes/Regexp.html
+
+Ruby Ranges
+http://www.ruby-doc.org/core/classes/Range.html
+
+puts "Hello World"
+
+"Hello, Ruby".index "Ruby"
+
+while i > 0
+  puts "lacy"
+  i = i - 1
+end
+
+while i <= 10
+  puts "this is string number #{i}"
+  i = i + 1
+end
+
+see day1.rb
+
