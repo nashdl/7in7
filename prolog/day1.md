@@ -28,22 +28,22 @@
 * Make a knowledge base representing musicians and instruments. Also represent musicians and their genre of music.
 
 #### music.pl
-instrument(andrew_bird, whistle).
-instrument(andrew_bird, violin).
-instrument(daft_punk, turntable).
-instrument(galactic, piano).
-instrument(bajafondo, violin).
-instrument(xavier_rudd, didgeridoo).
-instrument(clutch, drums).
-instrument(johnny_cash, guitar).
-
-genre(andrew_bird, folk_rock).
-genre(daft_punk, electronic).
-genre(galactic, funk).
-genre(bajafondo, latin_electronic).
-genre(xavier_rudd, roots).
-genre(clutch, stoner_rock).
-genre(johnny_cash, county).
+    instrument(andrew_bird, whistle).
+    instrument(andrew_bird, violin).
+    instrument(daft_punk, turntable).
+    instrument(galactic, piano).
+    instrument(bajafondo, violin).
+    instrument(xavier_rudd, didgeridoo).
+    instrument(clutch, drums).
+    instrument(johnny_cash, guitar).
+    
+    genre(andrew_bird, folk_rock).
+    genre(daft_punk, electronic).
+    genre(galactic, funk).
+    genre(bajafondo, latin_electronic).
+    genre(xavier_rudd, roots).
+    genre(clutch, stoner_rock).
+    genre(johnny_cash, county).
 
 * Find all musicians who play the guitar.
 
