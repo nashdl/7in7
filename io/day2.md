@@ -53,3 +53,17 @@ List myAverage := method(
 
 * Write a prototype for a 2-d list. The dim(x,y) method should allocate a list of y lists that are x elements long, set(x, y, value) should set a value and get(x, y) should return that value.
 
+SuperList := Object clone
+SuperList l := list
+SuperList dim := method(x, y,
+	self l = list
+	for(i, 0, y, 1,
+		sub_list := list;
+		for(j, 0, x, 1,
+			sub_list append(j)
+		);
+		self l append(sub_list)
+	)
+)
+SuperList set := method(x, y,
+	
